@@ -1,0 +1,15 @@
+<%- include ('./header') %>
+<div class="container">
+  <h1 class="p-2">Formulario de upload de imagems</h1>
+  <div class="card p-5">
+    <form action="/upload" method="post" class="title" enctype="multipart/form-data">
+      <div class="form-group p-2">
+        <label for="loadFile">Arquivo: </label>
+        <input type="file" name="loadFile" class="text-input" />
+      </div>
+      <div class="">
+        <input type="submit" class="btn btn-primary" value="Carrgar " />
+      </div>
+    </form>
+  </div>
+</div>
